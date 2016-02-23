@@ -9,7 +9,7 @@
 
 
 directory 'C:\\DevOps' do
-  owner 'x3administrator'
+  owner 'administrator'
   group 'administrator'
   mode '0755'
   action :create
@@ -17,7 +17,7 @@ end
 
 # creating Check_WindowsNode.ps1
 cookbook_file 'C:\devops\Check_WindowsNode.ps1' do
-  owner 'x3administrator'
+  owner 'administrator'
   group 'administrator'
   mode '0755'
   source 'Check_WindowsNode.ps1'
